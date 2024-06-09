@@ -13,7 +13,8 @@ The preprocess function performs several steps to clean and prepare the text for
 * Removing repeating lines to reduce redundancy.
 * Cleaning text by removing newlines, tabs, and non-ASCII characters.
 * Language detection using the langdetect library, which supports a wide range of languages.
-* Sentence segmentation and tokenization using spaCy, a powerful NLP library. * I prioritize web-based models (_core_web_sm) over news-based models (_core_news_sm) for better general-purpose text handling.
+* Sentence segmentation and tokenization using spaCy, a powerful NLP library.
+* I prioritize web-based models (_core_web_sm) over news-based models (_core_news_sm) for better general-purpose text handling.
 
 ## Part 2: LLM-Powered Understanding and Actions
 
